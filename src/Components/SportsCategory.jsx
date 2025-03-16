@@ -11,7 +11,7 @@ const SportsCategory = () => {
 
     return (
         <div className="my-14">
-            <h2 className="text-center font-bold text-5xl mb-5">Sports Categories</h2>
+            <h2 className="text-center font-bold text-5xl mb-5">Sports Category</h2>
             <p className="text-center w-2/3 mx-auto mb-8">
                 Explore different sports categories and find the best equipment suited for your needs!
             </p>
