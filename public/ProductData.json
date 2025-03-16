@@ -1,0 +1,59 @@
+[
+    {
+      "id": "1",
+      "name": "Adidas Predator Soccer Cleats",
+      "image": "https://imgs.search.brave.com/2YS8eWPZzeRtdM4sE7H1boVDAxyIsAEXQV_P16NMrn4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuYWRpZGFzLmNv/bS9pbWFnZXMvd182/MDAsZl9hdXRvLHFf/YXV0by84M2E1NmJj/Nzg3ZmE0YjA4YWVi/YWJlMGYyM2Q2NGRi/ZF85MzY2L1ByZWRh/dG9yX0VsaXRlX0Zp/cm1fR3JvdW5kX0Ns/ZWF0c19SZWRfSUQz/ODgyX0hNMS5qcGc",
+      "price": "$120.99",
+      "category": "Footwear",
+      "description": "High-performance soccer cleats with superior grip and control for professional gameplay."
+    },
+    {
+      "id": "2",
+      "name": "Wilson Evolution Basketball",
+      "image": "https://imgs.search.brave.com/pMFvQvoLHOYTUlToTUyUDgbAdZwSbiq3-5YZyFob5Es/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTEyM0lPNHhiREwu/anBn",
+      "price": "$59.99",
+      "category": "Basketball",
+      "description": "Official size and weight basketball with premium composite leather for superior handling."
+    },
+    {
+      "id": "3",
+      "name": "Nike Dri-FIT Training T-Shirt",
+      "image": "https://imgs.search.brave.com/OlzB0VTVWkh4IMcLvdvfjpdUcJT65PIhxBVP7QMsAo0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFTQWplV1oyakwu/anBn",
+      "price": "$34.99",
+      "category": "Apparel",
+      "description": "Lightweight and breathable training t-shirt with sweat-wicking technology for peak performance."
+    },
+    {
+      "id": "4",
+      "name": "Yonex Carbonex Badminton Racket",
+      "image": "https://imgs.search.brave.com/eWMIbEkWnbKYz6e0suvYe0gTobpt9Oyr8pQpHJZb8ms/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c3BvcnRza2hlbC5j/b20vbWVkaWEvY2F0/YWxvZy9wcm9kdWN0/L2NhY2hlLzA0NzFi/MWExODk5NmZjYmNj/YWJkOGI4MTQwMTM5/ZTAwL2Evcy9hc3Ry/b3hfOTlfeW9uZXhf/YmRtbnJha19lc18x/X2VfMi5qcGc",
+      "price":"$89.99",
+      "category": "Badminton",
+      "description": "Professional-grade badminton racket with a sturdy carbon shaft for enhanced durability and precision."
+    },
+    {
+      "id": "5",
+      "name": "Spalding NBA Indoor/Outdoor Basketball",
+      "image": "https://imgs.search.brave.com/dvJcq1vzGsz6SSGmZNEZlm1hKnMeEI7fTYKUJtuUfD0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9zZW8vU3Bh/bGRpbmctTkJBLU9m/ZmljaWFsLUluZG9v/ci1PdXRkb29yLUJh/c2tldGJhbGxfNzJk/NDU1OWQtMTIzZC00/YjhjLThmZTMtMjYy/OWNhYTRkMzI2XzQu/YmYxNGFiN2MyYWQw/YTJlYTQ0MzkwYWJj/OTljMzJhNTUuanBl/Zz9vZG5IZWlnaHQ9/NjQwJm9kbldpZHRo/PTY0MCZvZG5CZz1G/RkZGRkY",
+      "price": "$49.99",
+      "category": "Basketball",
+      "description": "Durable, all-weather basketball perfect for both indoor and outdoor play."
+    },
+    {
+      "id": "6",
+      "name": "Under Armour Compression Leggings",
+      "image": "https://imgs.search.brave.com/vAfHm4fgvT5QFNs6deX0yVkMnAEwcJbX24GiwbNKu0I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9zZW8vVW5k/ZXItQXJtb3VyLU1l/bi1zLVVBLUNvbGRH/ZWFyLUFybW91ci1U/d2lzdC1Db21wcmVz/c2lvbi1MZWdnaW5n/cy0xMjgyOTU5LUJs/YWNrLVNfODFlY2I5/NTktYTVlZi00NmE4/LTk0ZjAtZGVmZGU4/ODMxZmJiLmY0N2U3/MDRiZTJjMzNmOTlh/MzQ0ZjM2YWRiYzlk/NDk4LmpwZWc_b2Ru/SGVpZ2h0PTU4MCZv/ZG5XaWR0aD01ODAm/b2RuQmc9RkZGRkZG",
+      "price": "$45.50",
+      "category": "Apparel",
+      "description": "Compression leggings for optimal muscle support and moisture management during workouts."
+    },
+    {
+      "id": "7",
+      "name": "Speedo Fastskin Swimming Goggles",
+      "image": "https://imgs.search.brave.com/gzcV1sE9KjbeABMAFq5Opv7fTQZ3jSw2bCC11XUF4xc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTE0RDMyYkxsZEwu/anBn",
+      "price": "$29.99",
+      "category": "Swimming",
+      "description": "Anti-fog, UV-protected swimming goggles designed for speed and comfort in competitive swimming."
+    }
+  ]
+  
