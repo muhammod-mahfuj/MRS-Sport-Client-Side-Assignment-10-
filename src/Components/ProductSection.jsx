@@ -15,11 +15,11 @@ const ProductSection = () => {
   
     return (
         <div className='text-center  my-10'>
-            <h2 className='font-bold text-5xl mb-3'>Product Section</h2>
+            <h2 className='font-bold text-5xl mb-3'>Products </h2>
             <p className='w-2/3 mx-auto'>Explore a premium collection of sports equipment, apparel, and accessories designed for athletes of all levels. Find top-quality gear to enhance your performance and enjoy your game with the best products available!</p>
             <div>
                {equipments.length > 0 ? (
-                <div className='grid grid-cols-3 gap-5 my-10'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-6 my-10'>
                     { equipments.map(equipment => {
              
                  const {id,name,image,price,category,description} = equipment;
