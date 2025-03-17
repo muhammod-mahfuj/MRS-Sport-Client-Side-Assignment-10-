@@ -34,7 +34,7 @@ const CustomerReviews = () => {
 
     return (
         <div className="customer-reviews-section text-center py-20">
-            <h2 className="text-4xl font-bold mb-6">Our Customers Reviews </h2>
+            <h2 className="text-5xl font-bold mb-7">Our Customers Reviews </h2>
             <div className="reviews-container grid grid-cols-1 md:grid-cols-3 gap-8">
                 {reviews.map((review, index) => (
                     <div key={index} className="review-card p-6 border rounded-lg shadow-lg">

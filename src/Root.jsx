@@ -5,7 +5,8 @@ import Banner from './Components/Banner'
 import ProductSection from './Components/ProductSection'
 import SportsCategory from './Components/SportsCategory'
 import CustomerReviews from './Components/CustomerReviews'
-import FeedbackForm from './Components/FeedbackForm'
+import AboutUs from './Components/AboutUs'
+import ContactUs from './Components/ContactUs'
 
 
 function Root() {
@@ -17,8 +18,9 @@ function Root() {
        <Banner></Banner>
        <ProductSection></ProductSection>
        <SportsCategory></SportsCategory>
+       <AboutUs></AboutUs>
        <CustomerReviews></CustomerReviews>
-       <FeedbackForm></FeedbackForm>
+       <ContactUs></ContactUs>
       <Footer></Footer>
     </>
   )
