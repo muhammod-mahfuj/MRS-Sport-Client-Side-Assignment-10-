@@ -35,9 +35,9 @@ const Register = () => {
           const creationTime = result.user.metadata.creationTime;
           const user = {name,email,photo,creationTime};
           e.target.reset();
-         
+          navigate('/')
           // save user data to database
-          fetch("http://localhost:3000/users",{
+          fetch("https://mrs-sports-server.vercel.app/users",{
             method: "POST",
             headers : {
               "content-type" : "application/json"
@@ -46,7 +46,6 @@ const Register = () => {
           })
           .then(res => res.json())
           .then(data => {
-            console.log(data)
             
             
             if(data.insertedId){
@@ -58,7 +57,7 @@ const Register = () => {
                 showConfirmButton: false,
                 timer: 1500
               });
-              navigate('/')
+              
             }
           })
         })

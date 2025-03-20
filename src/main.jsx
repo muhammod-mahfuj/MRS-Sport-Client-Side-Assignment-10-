@@ -44,22 +44,22 @@ const router = createBrowserRouter([
       {
         path: '/home/allequipment',
         element:<PrivateRoute><AllEquipment></AllEquipment></PrivateRoute>,
-        loader: () => fetch('http://localhost:3000/equipment'),
+        loader: () => fetch('https://mrs-sports-server.vercel.app/equipment'),
       },
       {
           path: '/home/allequipment/:id',
           element: <PrivateRoute><DetailsOfEquipment></DetailsOfEquipment></PrivateRoute>,
-          loader: ({params}) => fetch(`http://localhost:3000/equipment/${params.id}`)
+          loader: ({params}) => fetch(`https://mrs-sports-server.vercel.app/equipment/${params.id}`)
       },
       {
         path: "/home/mylist",
         element: <PrivateRoute><MyEquipmentList></MyEquipmentList></PrivateRoute>,
-        loader: () => fetch(`http://localhost:3000/equipment`)
+        loader: () => fetch(`https://mrs-sports-server.vercel.app/equipment`)
       },
       {
         path: "/home/mylist/:id",
         element: <PrivateRoute><UpdateEquipment></UpdateEquipment></PrivateRoute>,
-        loader: ({params}) => fetch(`http://localhost:3000/equipment/${params.id}`)
+        loader: ({params}) => fetch(`https://mrs-sports-server.vercel.app/equipment/${params.id}`)
       },
       {
         path: '/home/login',

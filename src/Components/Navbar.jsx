@@ -5,6 +5,7 @@ import { AuthContext } from '../AuthProvider/AuthProvider';
 const Navbar = () => {
 
     const {user, signOutUser} =  useContext(AuthContext);
+    console.log(user)
 
     const handleSignOut = (e) => {
         e.preventDefault();
@@ -63,6 +64,7 @@ const Navbar = () => {
            
                 {
                     user ? <>
+                        <img src={user?.photoURL} alt={user?.displayName} />
                         <span>{user?.email}</span>
                         <a className='btn' onClick={handleSignOut}>Log Out</a>
                     </> 

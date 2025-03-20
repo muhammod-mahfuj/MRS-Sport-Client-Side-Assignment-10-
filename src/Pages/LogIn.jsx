@@ -21,7 +21,7 @@ const LogIn = () => {
       const userInfo ={email,lastSignInTime}
       e.target.reset();
       navigate('/')
-      fetch("http://localhost:3000/users",{
+      fetch("https://mrs-sports-server.vercel.app/users",{
         method: "PATCH",
         headers: {
           "content-type": "application/json"

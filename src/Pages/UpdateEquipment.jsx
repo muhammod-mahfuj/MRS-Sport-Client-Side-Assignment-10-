@@ -1,10 +1,12 @@
 import React, { useContext } from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { useLoaderData, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../AuthProvider/AuthProvider';
 import Swal from 'sweetalert2';
 
 const UpdateEquipment = () => {
     const {user} = useContext(AuthContext);
+
+    const navigate = useNavigate();
 
     const MyListEquipment = useLoaderData();
 
@@ -30,7 +32,7 @@ const UpdateEquipment = () => {
             const UpdateEquip ={itemName: Name,description: newDescription,categoryName,price,
                 image,rating,customization,stockStatus, userName,userEmail};
 
-            fetch(`http://localhost:3000/equipment/${_id}`,{
+            fetch(`https://mrs-sports-server.vercel.app/equipment/${_id}`,{
                    method: "PATCH",
                    headers: {
                     'Content-Type' : "application/json"
@@ -48,6 +50,7 @@ const UpdateEquipment = () => {
                            showConfirmButton: false,
                            timer: 1500
                        });
+                       navigate('/home/mylist');
                    }
                   })
         }

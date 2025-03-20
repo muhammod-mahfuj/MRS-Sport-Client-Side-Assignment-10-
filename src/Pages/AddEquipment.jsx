@@ -25,7 +25,7 @@ const AddEquipment = () => {
        const addEquip ={itemName,description,categoryName,price,
         image,rating,customization,stockStatus, userName,userEmail}
 
-       fetch('http://localhost:3000/equipment',{
+       fetch('https://mrs-sports-server.vercel.app/equipment',{
         method: "POST",
         headers : {
             'content-type' : "application/json"

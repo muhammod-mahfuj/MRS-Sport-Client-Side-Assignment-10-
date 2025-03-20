@@ -14,7 +14,7 @@ function Root() {
 
   return (
     <>
-      <Navbar></Navbar>   
+      <Navbar></Navbar> 
        <Banner></Banner>
        <ProductSection></ProductSection>
        <SportsCategory></SportsCategory>
