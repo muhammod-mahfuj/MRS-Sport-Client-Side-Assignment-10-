@@ -42,6 +42,7 @@ const UpdateEquipment = () => {
                   .then(res => res.json())
                   .then(data => {
                    console.log(data);
+                   navigate('/home/mylist');
                    if(data.modifiedCount){
                        Swal.fire({
                            position: "top-end",
@@ -50,7 +51,7 @@ const UpdateEquipment = () => {
                            showConfirmButton: false,
                            timer: 1500
                        });
-                       navigate('/home/mylist');
+                       
                    }
                   })
         }
